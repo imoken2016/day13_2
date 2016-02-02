@@ -2,7 +2,7 @@ class CreateBlogs < ActiveRecord::Migration
   def change
     create_table :blogs do |t|
       t.string :tittle
-      t.text :content
+      t.text :contentsho
 
       t.timestamps null: false
     end
