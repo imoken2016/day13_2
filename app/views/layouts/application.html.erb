@@ -8,6 +8,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<nav class="navbar navbar-default ">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+
+      <!-- 右寄せになる部分 ================ -->
+      <ul class="nav navbar-nav navbar-right">
+        <!-- リンクのみ -->
+        <li><%= link_to "トップページ", root_path %></li>
+        <li><%= link_to "お問い合わせ", contacts_path %></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
 <%= yield %>
 
