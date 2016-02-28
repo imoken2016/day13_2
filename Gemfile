@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'bootstrap-sass', '~> 3.2.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -43,5 +45,27 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'awesome_print'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'database_rewinder'
+  gem 'factory_girl_rails'
+  gem 'hirb-unicode'
+  gem 'hirb'
+  gem 'pry-byebug'
+  gem 'pry-doc'
+  gem 'pry-rails'
+  gem 'pry-stack_explorer'
+  gem 'quiet_assets'
+  gem 'tapp'
+  gem 'timecop'
+  gem "annotate", github: "ctran/annotate_models"
+  gem "colorize_unpermitted_parameters"
+  gem "faker"
+  gem "guard-rspec", require: false
+  gem "rack-mini-profiler"
+  gem "spring-commands-rspec"
+  gem "xray-rails"
+
 end
 
